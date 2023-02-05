@@ -1,5 +1,11 @@
-/* main adjustsments that should stay the same */
+/* Initally I was going to split the styling up but I figured it was just a navbar so I left it alone.
+Then I was very unsure & confused about how the icon & the text that are inside the button
+were supposed to collabrate together so that they both turn white when the cursor hovered over. I also had 
+issures figuring out how to nest this area.. it might of been because I took a look in replit to get an idea 
+on how to nest it & that may have thrown me off. 
+& finally, on the left button I just couldn't get the 'practice' and my name to aline so I left that one alone as well. */
 
+/* main adjustsments that should stay the same */
 .main-container {
   display: flex;
   justify-content: space-between;
@@ -256,4 +262,5 @@ button {
 /* interactive-background: #1c2333 var(--background-default);
     --interactive-background--active: #2b3245 var(--background-higher);
     --interactive-border: #2b3245 (--outline-dimmest);
-    --interactive-border--hover: #4e5569; */
+    --interactive-border--hover: #4e5569; 
+    COLORS THAT REPLIT USE */
