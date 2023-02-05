@@ -1,0 +1,259 @@
+/* main adjustsments that should stay the same */
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0e1525;
+  padding: 10px;
+  height: 50px;
+}
+
+i {
+  display: flex;
+  color: white;
+}
+
+p {
+  margin: 0;
+  color: white;
+}
+
+.fir-section {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.sec-section {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #0e1525;
+}
+
+/* left side of navbar */
+/* icons before left nav button */
+
+.main-container > .fir-section > .slide-bar {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.main-container > .fir-section > .slide-bar > i {
+  color: #4e5569;
+}
+
+.main-container > .fir-section > .slide-bar > i:hover {
+  color: white;
+}
+
+.main-container > .fir-section > .icons {
+  display: flex;
+  margin: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.main-container > .fir-section > .icons > .f-icon > i:hover,
+.main-container > .fir-section > .icons > .down-i > :hover {
+  color: white;
+}
+
+.main-container > .fir-section > .icons > .f-icon {
+  width: 22px;
+}
+
+.main-container > .fir-section > .icons > .down-i > i {
+  color: #4e5569;
+}
+
+/* left side nested button */
+
+.main-container > .fir-section > button {
+  height: 48px;
+  width: 157px;
+  padding: 0;
+  border: 1px solid #0e1525;
+  margin: 15px 8px 15px 0;
+  transition: 0.2s;
+}
+
+.main-container > .fir-section > button:hover {
+  border: 1px solid;
+  border-color: #4e5569;
+}
+
+/* html logo */
+
+.main-container > .fir-section > button > .rep-logo {
+  margin: 15px 8px 0px 11px;
+}
+
+.main-container > .fir-section > button > .rep-logo > i {
+  color: rgb(233, 100, 52);
+}
+
+/* p-tags in button*/
+
+.main-container > .fir-section > button > .mid-wrapper > p {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container > .fir-section > button > .mid-wrapper > p:nth-of-type(1) {
+  margin: 4px 0;
+}
+
+.main-container > .fir-section > button > .mid-wrapper > p:nth-of-type(2) {
+  color: #4e5569;
+  width: 96px;
+}
+
+/* down arrown in button */
+
+.main-container > .fir-section > button > .down-i {
+  width: 18px;
+  margin-top: 15px;
+}
+
+/* cloud icon */
+
+.main-container > .fir-section > .cloud-check > i {
+  color: #4e5569;
+  cursor: pointer;
+}
+
+/* Middle button */
+
+.main-container > .sec-section > .m-button > button {
+  height: 45px;
+  width: 110px;
+  display: flex;
+  background-color: #044a10;
+  color: #6cd97e;
+  border: 1px solid #044a10;
+  justify-content: space-evenly;
+  transition-duration: 0.2s;
+}
+
+.main-container > .sec-section > .m-button > button:hover,
+.main-container > .sec-section > .m-button > button > i:hover {
+  background-color: #009118;
+  border: 1px solid #044a10;
+  color: white;
+}
+
+.main-container > .sec-section > .m-button > button > i {
+  color: #6cd97e;
+}
+
+.main-container > .sec-section > .m-button > button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Second section */
+
+.main-container > .sec-section > .r-side {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+}
+/* search icon */
+
+.main-container > .sec-section > .r-side > .search {
+  cursor: pointer;
+  border: 1px solid #0e1525;
+  border-radius: 10px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container > .sec-section > .r-side > .search > i {
+  margin-top: 4px;
+}
+
+.main-container > .sec-section > .r-side > .search:hover {
+  background-color: #1c2333;
+}
+
+/* r-side button */
+
+.main-container > .sec-section .r-side > button {
+  height: 32px;
+  width: 80px;
+  color: white;
+  background-color: #1c2333;
+  justify-content: space-evenly;
+  border: none;
+  padding: 8px;
+  margin: 0px 10px 0px 10px;
+  transition: 0.2s;
+}
+
+.main-container > .sec-section > .r-side > button:hover {
+  background-color: #4e5569;
+}
+
+/* bell & user icon */
+
+.main-container > .sec-section .r-side > .icons {
+  display: flex;
+}
+
+.main-container > .sec-section .r-side > .icons > .icon {
+  cursor: pointer;
+  border: 1px solid #0e1525;
+  border-radius: 10px;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  display: flex;
+}
+
+.main-container > .sec-section > .r-side > .icons > div:nth-of-type(1):hover {
+  background-color: #1c2333;
+}
+
+.main-container > .sec-section > .r-side > .icons > .icon > i {
+  margin: 4px;
+}
+
+/* down arrow */
+
+.main-container > .sec-section > .r-side > .icons > .down-i {
+  margin-top: 4px;
+}
+
+.main-container > .sec-section .r-side > .icons > .down-i > i {
+  color: #4e5569;
+  cursor: pointer;
+}
+
+.main-container > .sec-section .r-side > .icons > .down-i > i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.main-container > .sec-section .r-side > .icons > .down-i > i {
+  margin-top: 5px;
+}
+
+/* interactive-background: #1c2333 var(--background-default);
+    --interactive-background--active: #2b3245 var(--background-higher);
+    --interactive-border: #2b3245 (--outline-dimmest);
+    --interactive-border--hover: #4e5569; */
